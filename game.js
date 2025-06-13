@@ -1,6 +1,6 @@
 let number = 0;
 let computerChoice = "";
-let playerChoice = "";
+let humanChoice = "";
 let computerScore = 0;
 let humanScore = 0;
 
@@ -25,6 +25,10 @@ function getComputerrChoice() {
 }
 
 function getHumanChoice() {
-    playerChoice = prompt("Enter your choice!");
-    return playerChoice;
+    humanChoice = prompt("Enter your choice!");
+    return humanChoice;
+}
+
+function playRound(humanChoice, computerChoice) {
+    
 }
