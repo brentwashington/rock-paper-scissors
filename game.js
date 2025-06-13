@@ -1,6 +1,8 @@
 let number = 0;
 let computerChoice = "";
 let playerChoice = "";
+let computerScore = 0;
+let humanScore = 0;
 
 function getComputerrChoice() {
     // Generate a random number between 0 and 2
